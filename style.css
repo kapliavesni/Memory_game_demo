@@ -1,0 +1,35 @@
+.pavadinimas {
+    text-align: center;
+    color: blue;
+}
+
+.straipsnis {
+text-align: center;
+color: rgb(109, 109, 222);
+font-size: 20px;
+}
+
+body {
+    background-color: rgb(199, 199, 237);
+}
+.game-board {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+}
+
+.card {
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: 1px solid #000;
+    margin: auto;
+}
+
+.card.matched {
+    background-color: lightgreen;
+}
